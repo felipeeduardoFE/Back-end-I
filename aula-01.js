@@ -17,3 +17,17 @@ console.log("tamanho " + estados.length); //Concatenação
 console.log(marcaCarros[0]);
 console.log("total letras: " + marcaCarros[0].length);
 console.log(`Estado: ${estados[1]}`); //Interpolação
+
+letusuario; //variavel não definida
+console.log(usuario);
+console.log(usuario.length);
+
+let idade = 10;
+console.log(idade + 1);
+
+let nula = null;//caso o valor de idade fosse 0 daria o erro: (NAN)
+console.log(nula.length);
+console.log(nula + 1);
+
+const aula = "JavaScript";
+console.log(aula)
